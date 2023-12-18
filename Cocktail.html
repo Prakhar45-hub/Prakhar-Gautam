@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cocktail-Foods and Drinks</title>
+
+    <link rel="icon" class="icon" type="image/png" href="c:\Users\DELL\Desktop\Website\components\img\drink 3.png">
+
+    <!---custom css link--->
+    <link rel="stylesheet" href="Style.CSS" class="stylesheet">
+
+    <!---boxicons link--->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <!---remixicons link--->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!---icons link--->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+   
+</head>
+<body>
+   
+      <div class="navbar background1 h-nav-resp">
+         <div class="menu"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAIFJREFUWEftlUEKwEAIA5uf9+f20t62HWhYUMheg+KOUXU0e2pWz5GCqCMhFEJEgPQ5Hqqqot84uqQljFdCKejGPcdDjj+c2BAiel9TdlKwo0ta5s/YP1T/LMZeLXP84cRm7IneHEK59nTt2xEi8+3S55h6FwHKG0IhRARIj4eI0AU3vigl74zYZwAAAABJRU5ErkJggg=="/></div>
+      <ul class="nav-list another">
+        <div class="logo"><img src="drink 2.png"alt="logo"></div>
+        <div class="prakhar v-class-resp">
+         <li><a href="home.html"><span></span>Home</a></li>         
+            <li><div class="dropdown"><a href="Junk food.html"><span></span>Junk food</a>
+            <div class="dropdown-menu">
+               <a href="Junk food.html#Icecream">Icecream</a>
+                  <a href="Junk food.html#Burger">Burger</a>
+                  <a href="Junk food.html#Pizza">Pizza</a>
+                  <a href="Junk food.html#Pasta">Pasta</a>
+               <div class="more"><a href="https://www.thetoptens.com/food/best-junk-foods/">more <i class="ri-arrow-right-line"></i></a></div>
+            </div>
+            </div>
+             </li>
+             <li><div class="dropdown"><a href="Cocktail.html"><span></span>Cocktail</a>
+               <div class="dropdown-menu1">
+                  <a href="#Paloma">Paloma</a>
+                  <a href="#Cosmopolitan (cocktail)">Cosmopolitan</a>
+                  <a href="#Negroni">Negroni</a>
+               <div class="more"><a href="https://vinepair.com/articles/50-most-popular-cocktails-world-2017/">more <i class="ri-arrow-right-line"></i></a></div>
+               </div>
+               </div>
+                </li>
+                <li><a href="Contact us.html"><span></span>Contact Us</a></li>
+         </ul>
+    <div class="rightnav z-class-resp ">
+      <div class="base">
+      <form action="https://www.google.com/search" method="get" class="hello-bar">
+         <input type="text" placeholder="search foods..." name="q" class="Search">
+        <button class="submit"><img src="search.png"></button></form>
+      </div>
+      </div>
+      <div class="my"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAzJJREFUWEftl1uoT3kUxz9fBqWMvLnTMJERzYt0eNCow0zUPJhpNC5Tbi/KTJ2IktLJNZHQhFxqpGamppjMKbk9oHkaRWFymYhkFCUOwtLSOmafbZ/z37/h/+8o623vvdZ3fff6rdtPdDBRB+PDu0nIzD4D6oGxwEdAb+AWcAU4DTRJOvE2ot1uhMxsNLAVGFfC2RFgoaQLJXTbVGmTkJnNBHYA3RIcNANfS/o9waaVaiEhM5sG/JLRfAr8CBwDLgJX4+iGA36c84HOGf16SYf/D6nXCJnZIOAs0CMALwNfSPq7LQdmNhL4A+gfOv8CIyTdSSVVROg34MsA8miMLwNsZk7mFDAgbLdLWvBGhMxsDPBngDwBhkn6pyxoFMFf8LKdGDBUkldiaWkVITPbBCwK602SfiiNFIpmth/4Jh4XS1qfgpEn5CU7LADqJHmPSRIz+wr4OYyOSpqYApAndA/oGQAfSrqfAua6ZjY4qtAfr0nyIikteUKeN13C+gNJz0oj/Xdk3rcexWOzpO4pGHlCN4E+AdBHko+HJDGzvsCNMDoraVQKQJ7QSaAuAD6X1JQCFkc2FTgQdvskzUjByBNaDqwMgJ2S5qWABaGfgG/DbomkdSkYeUI+Cs4HwPPott4cS0n0oTOh/Bj4WNL1UsahVNSp9wKz4vsln/SSblcCNbOB0an7hW6jJI94khQR8qQ8B/QKJB+kkyvMsk+BQ7EnuZkXwxBJD5PYRIt/zcbMpgAHMx982m8DjmemvTfQEcAEYG4O61fgO0kP3gqhSM7pwB6gawKo9x/PId8s7wI+ijZL8oZbSiptjJ8AWyIKlQCPAl6VHk3PvZYG68e2VlJL9baLU2rJj516Uman9jzrBLgz36V3S3q10JmZL3P51WO5pMZKf1WKUCWQ/PeoOF87slukq62oFKmqEIocXAUsLfiZdZKWtPWT1STk2H5JmFPg3ItljiRvvq2kaoQiSp5nu4DZBaT8/VxJvlm+kqoSavFiZhuB7wtI+ZUpe7up3VXazHyVbciQWi1pWU2PrKD61gCe0A2SNhQldk2OLOvYzCZI8hFUKDUnVKmnvSf0zkXoBUbP/CV1fHarAAAAAElFTkSuQmCC"/>
+      </div>
+   </div>
+
+     <section class="background1 firstsection1">
+      <div class="box-main">
+         <div class="firsthalf">
+           <p class="big1"><b>Cocktail</b></p>
+         </div>
+
+         <div class="secondhalf1">
+             <a href="Untitled1.png"><img src="Untitled1.png" alt="Cocktail Image"></a>
+         </div>
+     </div>
+     </section>
+
+
+     <section id="Paloma" class="section">
+      <div class="paras">
+      <p class="sectiontag text-big">Paloma (cocktail)</p><hr class="size">
+      <p class="sectionsubtag text-small">The paloma (Spanish for "dove") is a tequila-based cocktail. This drink is most commonly prepared by mixing tequila, lime juice, and a grapefruit-flavored soda such as Fresca, Squirt, or Jarritos and served on the rocks with a lime wedge. Adding salt to the rim of the glass is also an option. Alternatively, the grapefruit soda can be replaced with fresh white or red grapefruit juice (jugo de toronja) and club soda (sugar optional). A simple paloma is a two-ingredient cocktail consisting only of tequila and grapefruit-flavored soda. A more complex variant of the Paloma is the cantarito, which in addition to lime juice, also has lemon juice and orange juice.<a href="https://en.wikipedia.org/wiki/Paloma_(cocktail)">Learn more</a> </p>
+      </div>
+      <div class="thumbnail">
+        <img src="https://source.unsplash.com/random/230x230/?Cocktail Paloma" alt="paloma cocktail img" class="imgfluid">
+      </div>
+   </section>
+
+
+
+     <section id="Cosmopolitan (cocktail)" class="section section-left">
+      <div class="paras">
+      <p class="sectiontag text-big">(cocktail)</p><hr class="size">
+      <p class="sectionsubtag text-small">A cosmopolitan, or, informally, a cosmo, is a cocktail made with vodka, Cointreau, cranberry juice, and freshly squeezed or sweetened lime juice. The International Bartenders Association recipe is based on vodka citron, lemon-flavored vodka. The cosmopolitan is a relative of cranberry coolers like the Cape Codder. Though often presented far differently, the cosmopolitan also bears a likeness in composition to the kamikaze cocktail. The origin of the cosmopolitan is disputed. While the cocktail is widely perceived to be a more modern creation, there is a recipe for a Cosmopolitan Daisy which appears in Pioneers of Mixing at Elite Bars 1903–1933, published in 1934.<a href="https://en.wikipedia.org/wiki/Pizza">Learn more</a></p>
+      </div>
+      <div class="thumbnail">
+         <img src="https://source.unsplash.com/random/250x250/?Cosmopolitan cocktail" alt="Cosmopolitan cocktail img" class="imgfluid">
+      </div>
+   </section>
+
+
+     <section id="Negroni" class="section">
+        <div class="paras">
+        <p class="sectiontag text-big">Negroni (cocktail)</p><hr class="size">
+        <p class="sectionsubtag text-small">A Negroni is an Italian cocktail, made of one part gin, one part vermouth rosso (red, semi-sweet) and one part Campari, garnished with orange peel. It is considered an apéritif. A traditionally made Negroni is stirred, not shaken; it is built over ice in an old-fashioned or rocks glass and garnished with a slice of orange. Outside of Italy, orange peel is often used in place of an orange slice.<a href="https://en.wikipedia.org/wiki/Negroni">Learn more</a></p>
+        </div>
+        <div class="thumbnail">
+           <img src="https://source.unsplash.com/random/250x250/?negroni" alt="Pizza img" class="imgfluid">
+        </div>
+     </section>
+     <footer class="footer">
+      <div class="container">
+       <div class="row">
+         <div class="footer-col">
+           <h4>company</h4>
+           <ul>
+             <li><a href="#">about us</a></li>
+             <li><a href="#">our services</a></li>
+             <li><a href="#">privacy policy</a></li>
+             <li><a href="#">affiliate program</a></li>
+           </ul>
+         </div>
+         <div class="footer-col">
+           <h4>get help</h4>
+           <ul>
+             <li><a href="#">FAQ</a></li>
+             <li><a href="#">shipping</a></li>
+             <li><a href="#">returns</a></li>
+             <li><a href="#">order status</a></li>
+             <li><a href="#">payment options</a></li>
+           </ul>
+         </div>
+         <div class="footer-col2">
+            <h4>follow us</h4>
+            <div class="social-links">
+             <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+             <a href="#"><i class="fab fa-instagram"></i></a>
+             <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+         </div>
+       </div>
+      </div>
+      <div class="copy">
+         Copyright &copy; Foods and Drinks 2023-2028
+       </div>
+   </footer>
+
+   <script src="components/js/resp.js"></script>
+   
+</body>
+</html>
