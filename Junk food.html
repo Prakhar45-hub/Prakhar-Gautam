@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Junk food-Foods and Drinks</title>
+
+    <link rel="icon" class="icon" type="image/png" href="c:\Users\DELL\Desktop\Website\components\img\drink 3.png">
+
+    <!---custom css link--->
+    <link rel="stylesheet" href="Style.CSS" class="stylesheet">
+
+    <!---boxicons link--->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <!---remixicons link--->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+</head>
+<body>
+   
+      <div class="navbar background2 h-nav-resp">
+         <div class="menu"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAIFJREFUWEftlUEKwEAIA5uf9+f20t62HWhYUMheg+KOUXU0e2pWz5GCqCMhFEJEgPQ5Hqqqot84uqQljFdCKejGPcdDjj+c2BAiel9TdlKwo0ta5s/YP1T/LMZeLXP84cRm7IneHEK59nTt2xEi8+3S55h6FwHKG0IhRARIj4eI0AU3vigl74zYZwAAAABJRU5ErkJggg=="/></div>
+         <ul class="nav-list another">
+            <div class="logo"><img src="drink 2.png"alt="logo"></div>
+            <div class="prakhar v-class-resp">
+             <li><a href="home.html"><span></span>Home</a></li>
+            <li><div class="dropdown"><a href="Junk food.html"><span></span>Junk food</a>
+             <div class="dropdown-menu">
+                <a href="#Icecream">Icecream</a>
+                   <a href="#Burger">Burger</a>
+                   <a href="#Pizza">Pizza</a>
+                   <a href="#Pasta">Pasta</a>
+                <div class="more"><a href="https://www.thetoptens.com/food/best-junk-foods/">more <i class="ri-arrow-right-line"></i></a></div>
+             </div>
+             </div>
+              </li>
+    
+              <li><div class="dropdown"><a href="Cocktail.html"><span></span>Cocktail</a>
+                <div class="dropdown-menu1">
+                   <a href="Cocktail.html#Paloma">Paloma</a>
+                   <a href="Cocktail.html#Cosmopolitan (cocktail)">Cosmopolitan</a>
+                   <a href="Cocktail.html#Negroni">Negroni</a>
+                <div class="more"><a href="https://vinepair.com/articles/50-most-popular-cocktails-world-2017/">more <i class="ri-arrow-right-line"></i></a></div>
+                </div>
+                </div>
+                 </li>
+    
+                 <li><a href="Contact us.html"><span></span>Contact Us</a></li>
+          </ul>
+         
+    
+        <div class="rightnav z-class-resp">
+          <form action="https://www.google.com/search" method="get" class="hello-bar">
+             <input type="text" placeholder="search foods..." name="q" class="Search">
+            <button class="submit"><img src="search.png"></button></form>
+        </div>
+        <div class="my"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAzJJREFUWEftl1uoT3kUxz9fBqWMvLnTMJERzYt0eNCow0zUPJhpNC5Tbi/KTJ2IktLJNZHQhFxqpGamppjMKbk9oHkaRWFymYhkFCUOwtLSOmafbZ/z37/h/+8o623vvdZ3fff6rdtPdDBRB+PDu0nIzD4D6oGxwEdAb+AWcAU4DTRJOvE2ot1uhMxsNLAVGFfC2RFgoaQLJXTbVGmTkJnNBHYA3RIcNANfS/o9waaVaiEhM5sG/JLRfAr8CBwDLgJX4+iGA36c84HOGf16SYf/D6nXCJnZIOAs0CMALwNfSPq7LQdmNhL4A+gfOv8CIyTdSSVVROg34MsA8miMLwNsZk7mFDAgbLdLWvBGhMxsDPBngDwBhkn6pyxoFMFf8LKdGDBUkldiaWkVITPbBCwK602SfiiNFIpmth/4Jh4XS1qfgpEn5CU7LADqJHmPSRIz+wr4OYyOSpqYApAndA/oGQAfSrqfAua6ZjY4qtAfr0nyIikteUKeN13C+gNJz0oj/Xdk3rcexWOzpO4pGHlCN4E+AdBHko+HJDGzvsCNMDoraVQKQJ7QSaAuAD6X1JQCFkc2FTgQdvskzUjByBNaDqwMgJ2S5qWABaGfgG/DbomkdSkYeUI+Cs4HwPPott4cS0n0oTOh/Bj4WNL1UsahVNSp9wKz4vsln/SSblcCNbOB0an7hW6jJI94khQR8qQ8B/QKJB+kkyvMsk+BQ7EnuZkXwxBJD5PYRIt/zcbMpgAHMx982m8DjmemvTfQEcAEYG4O61fgO0kP3gqhSM7pwB6gawKo9x/PId8s7wI+ijZL8oZbSiptjJ8AWyIKlQCPAl6VHk3PvZYG68e2VlJL9baLU2rJj516Uman9jzrBLgz36V3S3q10JmZL3P51WO5pMZKf1WKUCWQ/PeoOF87slukq62oFKmqEIocXAUsLfiZdZKWtPWT1STk2H5JmFPg3ItljiRvvq2kaoQiSp5nu4DZBaT8/VxJvlm+kqoSavFiZhuB7wtI+ZUpe7up3VXazHyVbciQWi1pWU2PrKD61gCe0A2SNhQldk2OLOvYzCZI8hFUKDUnVKmnvSf0zkXoBUbP/CV1fHarAAAAAElFTkSuQmCC"/>
+        </div>
+   </div>
+
+     <section class="background2 firstsection1">
+        <div class="box-main">
+            <div class="firsthalf">
+              <p class="big1"><b>Junk Food</b></p>
+            </div>
+
+            <div class="secondhalf1">
+                <a href="cookies-and-cream-in-white-bowl.png"><img src="cookies-and-cream-in-white-bowl.png" alt="Icecream Image"></a>
+            </div>
+        </div>
+     </section>
+
+     <section id="Icecream" class="section">
+        <div class="paras">
+        <p class="sectiontag text-big">Icecream</p><hr class="size">
+        <p class="sectionsubtag text-small">Ice cream is a frozen dessert typically made from milk or cream that has been flavoured with a sweetener, either sugar or an alternative, and a spice, such as cocoa or vanilla, or with fruit, such as strawberries or peaches. Food colouring is sometimes added in addition to stabilizers. The mixture is cooled below the freezing point of water and stirred to incorporate air spaces and prevent detectable ice crystals from forming. It can also be made by whisking a flavoured cream base and liquid nitrogen together. The result is a smooth, semi-solid foam that is solid at very low temperatures (below 2 °C or 35 °F). It becomes more malleable as its temperature increases. <a href="https://en.wikipedia.org/wiki/Ice_cream">Learn more</a></p>
+        </div>
+        <div class="thumbnail">
+          <img src="https://source.unsplash.com/random/230x230/?icecream" alt="Icecream image" class="imgfluid">
+        </div>
+     </section>
+
+     
+
+     <section id="Burger" class="section section-left">
+        <div class="paras">
+        <p class="sectiontag text-big">Burger</p><hr class="size">
+        <p class="sectionsubtag text-small">A hamburger, or simply burger, is a sandwich consisting of fillings—usually a patty of ground meat, typically beef—placed inside a sliced bun or bread roll. Hamburgers are often served with cheese, lettuce, tomato, onion, pickles, bacon, or chilis; condiments such as ketchup, mustard, mayonnaise, relish, or a "special sauce", often a variation of Thousand Island dressing; and are frequently placed on sesame seed buns.A hamburger patty topped with cheese is called a cheeseburger. Hamburgers are typically sold at fast-food restaurants, diners, and other restaurants. There are many international and regional variations of hamburger.<a href="https://en.wikipedia.org/wiki/Hamburger">Learn more</a> </p>
+        </div>
+        <div class="thumbnail">
+          <img src="https://source.unsplash.com/random/230x230/?hamburger" alt="Burger img" class="imgfluid">
+        </div>
+     </section>
+
+   
+
+
+     <section id="Pizza" class="section">
+        <div class="paras">
+        <p class="sectiontag text-big">Pizza</p><hr class="size">
+        <p class="sectionsubtag text-small">Pizza (English: /ˈpiːtsə/ PEET-sə, Italian: [ˈpittsa], Neapolitan: [ˈpittsə]) is a dish of Italian origin consisting of a usually round, flat base of leavened wheat-based dough topped with tomatoes, cheese, and often various other ingredients (such as various types of sausage, anchovies, mushrooms, onions, olives, vegetables, meat, ham, etc.), which is then baked at a high temperature, traditionally in a wood-fired oven.The term pizza was first recorded in the 10th century in a Latin manuscript from the Southern Italian town of Gaeta in Lazio, on the border with Campania. Raffaele Esposito is often credited for creating modern pizza in Naples.In 2009, Neapolitan pizza was registered with the European Union as a Traditional Speciality Guaranteed dish.<a href="https://en.wikipedia.org/wiki/Pizza">Learn more</a></p>
+        </div>
+        <div class="thumbnail">
+           <img src="https://source.unsplash.com/random/250x250/?Pizza" alt="Pizza img" class="imgfluid">
+        </div>
+     </section>
+
+     <section id="Pasta" class="section section-left">
+      <div class="paras">
+      <p class="sectiontag text-big">Pasta</p><hr class="size">
+      <p class="sectionsubtag text-small">Pasta (US: /ˈpɑːstə/, UK: /ˈpæstə/; Italian pronunciation: [ˈpasta]) is a type of food typically made from an unleavened dough of wheat flour mixed with water or eggs, and formed into sheets or other shapes, then cooked by boiling or baking. Rice flour, or legumes such as beans or lentils, are sometimes used in place of wheat flour to yield a different taste and texture, or as a gluten-free alternative. Pasta is a staple food of Italian cuisine. Pastas are divided into two broad categories: dried (pasta secca) and fresh (pasta fresca). Most dried pasta is produced commercially via an extrusion process, although it can be produced at home. Fresh pasta is traditionally produced by hand, sometimes with the aid of simple machines.<a href="https://en.wikipedia.org/wiki/Pasta">Learn more</a>
+     </div>
+      <div class="thumbnail">
+         <img src="https://source.unsplash.com/random/250x250/?pasta" alt="Pasta img" class="imgfluid">
+      </div>
+   </section>
+
+   <footer class="footer">
+      <div class="container">
+       <div class="row">
+         <div class="footer-col">
+           <h4>company</h4>
+           <ul>
+             <li><a href="#">about us</a></li>
+             <li><a href="#">our services</a></li>
+             <li><a href="#">privacy policy</a></li>
+             <li><a href="#">affiliate program</a></li>
+           </ul>
+         </div>
+         <div class="footer-col">
+           <h4>get help</h4>
+           <ul>
+             <li><a href="#">FAQ</a></li>
+             <li><a href="#">shipping</a></li>
+             <li><a href="#">returns</a></li>
+             <li><a href="#">order status</a></li>
+             <li><a href="#">payment options</a></li>
+           </ul>
+         </div>
+         <div class="footer-col2">
+            <h4>follow us</h4>
+            <div class="social-links">
+             <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+             <a href="#"><i class="fab fa-instagram"></i></a>
+             <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+         </div>
+       </div>
+      </div>
+      <div class="copy">
+         Copyright &copy; Foods and Drinks 2023-2028
+       </div>
+   </footer>
+
+   <script src="components/js/resp.js"></script>
+
+</body>
+</html>
